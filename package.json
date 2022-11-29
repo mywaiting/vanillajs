@@ -1,0 +1,18 @@
+{
+  "name": "vanillajs",
+  "version": "0.0.1",
+  "description": "5kB reactive framework for progressive enhancement",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "workspaces": [
+    "./packages/*"
+  ],
+  "author": "Heng<mywaiting>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4"
+  }
+}
